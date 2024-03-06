@@ -1,118 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/estilos.css">
-      
-</head>
-<body>
-    <header>
-        <div id="header">
-        <img src="../img/ClasesLogo.png" alt="Logo de las clases del WOW" width="40">
-        <h1>
-            Classes
-        </h1>
-        <img src="../img/ClasesLogo.png" alt="Logo de las clases del WOW" width="40">
-    </div>
-    </header>
-    <main>
-        <p id="selectClass">Seleccione la Classe</p>
-        <div id="menuSelect">
-            <select name="Classe" id="Classe">
-                <option value="Druida">Druida</option>
-                <option value="Clerigo">Clerigo</option>
-                <option value="Mago">Mago</option>
-                <option value="Picaro">Picaro</option>
-                <option value="Guerrero">Guerrero</option>
-                <option value="Paladin">Paladin</option>
-                <option value="Cazador">Cazador</option>
-                <option value="Sacerdote">Sacerdote</option>
-                <option value="Chaman">Chaman</option>
-                <option value="Monje">Monje</option>
-            </select>
-            <button id="ClassButton">Seleccionar Classe</button>
-        </div>
-        <h1 id="ClassName">(Sin seleccion)</h1>
-        <div id="imgClass"></div>
-        <div class="divSkill"><p id="skills"></p>
-        <p id="spells"><p></div>
-        <script type="module" src="/js/class.js"></script>
-    </main>
-    <div id="homeLink">
-        <a href="/index.html"><img src="../img/home.jpeg" alt="Enlace a home" width="150"></a>
-    </div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wowfinder Wicki</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="../src/class.jsx"></script>
+  </body>
 </html>
-<style>
-    #menuSelect, #header, #imgClass{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    #selectClass{
-        margin-top: 20px;
-        font-weight: bold;
-    }
-    .divSkill{
-        align-items: center;
-        padding: 3% 15%;
-    }
-    #ClassName{
-        padding-top: 50px;
-    }
-    h1{
-        align-self: center;
-        margin: 0%;
-        padding: 0%;
-    }
-    h4{
-        font-weight: bold;
-        margin: 0 5%;
-    }
-    img{
-        border-radius: 100%;
-        align-self: center;
-    }
-    #imgClass{
-        margin-top: 10px;
-    }
-    select{
-        width: 10em;
-        height: 2em;
-        border-radius: 20%;
-        text-align: center;
-        background-color: antiquewhite;
-        font-family: fantasy;
-        font-size: medium;
-    }
-    button{
-        width: 10em;
-        height:2em;
-        border-radius: 20%;
-        text-align: center;
-        background-color: black;
-        color: aliceblue;
-        font-family: fantasy;
-    }
-    #menuSelect{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    span{
-        color: black;
-        font-weight: bold;
-    }
-    #homeLink{
-        text-align: center;
-    }
-    #homeLink img{
-        border-radius: 100%;
-    }
-</style>
