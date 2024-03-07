@@ -1,90 +1,12 @@
-<!DOCTYPE html5>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Spells</title>
 </head>
 <body>
-    <header>
-        <div id="header">
-         <img src="../img/spells.jpeg" alt="Logo de las spells del WOW" width="40">
-        <h1>
-            Spells
-        </h1>
-        <img src="../img/spells.jpeg" alt="Logo de las spells del WOW" width="40">
-        </div>
-    </header>
-    <main>
-        <p>Selecciona el tipo de Hechizos:</p>
-    <select name="spellsList" id="spellsList">
-        <option value="arcane">Arcano</option>
-        <option value="arts">Artes</option>
-        <option value="celestial">Celestial</option>
-        <option value="divine">Divino</option>
-        <option value="occult">Occcult</option>
-        <option value="primal">Primal</option>
-    </select>
-    <button id="selectSpellList">Seleccionar</button>
-    <div id="selectRender">
-        <p>Seleccionar el Hechizo y su nivel:</p>
-        <select name="levelSpellList" id="levelSpellList"></select>
-        <select name="spells" id="spells"></select>
-        <button id="selectSpell">Seleccionar</button>
-    </div>
-    <div id="renderSpell"></div>
-    <script type="module" src="../js/spells.js"></script>
-    </main>
-    <div id="homeLink">
-        <a href="/index.html"><img src="../img/home.jpeg" alt="Enlace a home" width="150"></a>
-    </div>
-</body>
+<div id="root"></div>
+<script type="module" src="../src/spells.jsx"></script>
+  </body>
 </html>
-<style>
-    #header{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    main {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    h1{
-        align-self: center;
-        margin: 0%;
-        padding: 0%;
-    }
-    #homeLink{
-        text-align: center;
-    }
-    img{
-        border-radius: 100%;
-    }
-    div{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-    }
-    select{
-        width: 10em;
-        height: 2em;
-    }
-    button{
-        width: 10em;
-        height: 2em;
-    } 
- 
-</style>
