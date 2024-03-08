@@ -1,5 +1,5 @@
 import JSON5 from 'https://unpkg.com/json5@2/dist/index.min.mjs'
-import React, { useState, useEffect, Children } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/estilos.css'
 import ClassJS from '../js/class.js'
 
@@ -11,7 +11,7 @@ const classMap = {
     Druida: "drd",
     Luchador: "fgt",
     Mago: "mag",
-    Orco: "orc",
+    Oraculo: "orc",
     Pícaro: "rog",
   };
 function SelectClass() {   

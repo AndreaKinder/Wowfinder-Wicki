@@ -144,7 +144,7 @@ h1 {
   }
 
 /* Class section*/
-#cSelect, #selectLevel{
+#cSelect, #selectLevel, #spellListSelector{
   font-family: fantasy;
   font-size: 2rem;
   line-height: 1.6;
