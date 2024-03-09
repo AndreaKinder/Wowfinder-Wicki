@@ -590,6 +590,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wowfinder/ts-enums@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@wowfinder/ts-enums@npm:0.0.4"
+  checksum: 10c0/c8354473cf77f6ccdc81ee8c7146935bcc4dbc6c0c555eb5c6d2064ad996b7349acfa153a7fe3b7bbaf73bb6641125c48d3d1ebc319cb307c462b5d6aa8a985f
+  languageName: node
+  linkType: hard
+
+"@wowfinder/ts-utils@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "@wowfinder/ts-utils@npm:0.0.8"
+  checksum: 10c0/e7d94ec5f5e34030c5860700e2ceada29a4a8d69015e9893f7b2bb3879349938786e9ad3418f0e9cf8f658a846078ab854a2853b9d169f3c9fe054d3ac59e620
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -643,6 +657,18 @@ __metadata:
     json-schema-traverse: "npm:^0.4.1"
     uri-js: "npm:^4.2.2"
   checksum: 10c0/41e23642cbe545889245b9d2a45854ebba51cda6c778ebced9649420d9205f2efb39cb43dbc41e358409223b1ea43303ae4839db682c848b891e4811da1a5a71
+  languageName: node
+  linkType: hard
+
+"ajv@npm:^8.12.0":
+  version: 8.12.0
+  resolution: "ajv@npm:8.12.0"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.1"
+    json-schema-traverse: "npm:^1.0.0"
+    require-from-string: "npm:^2.0.2"
+    uri-js: "npm:^4.2.2"
+  checksum: 10c0/ac4f72adf727ee425e049bc9d8b31d4a57e1c90da8d28bcd23d60781b12fcd6fc3d68db5df16994c57b78b94eed7988f5a6b482fd376dc5b084125e20a0a622e
   languageName: node
   linkType: hard
 
@@ -781,6 +807,16 @@ __metadata:
     is-array-buffer: "npm:^3.0.4"
     is-shared-array-buffer: "npm:^1.0.2"
   checksum: 10c0/d32754045bcb2294ade881d45140a5e52bda2321b9e98fa514797b7f0d252c4c5ab0d1edb34112652c62fa6a9398def568da63a4d7544672229afea283358c36
+  languageName: node
+  linkType: hard
+
+"assests@https://github.com/WowFinder/asset-schemas":
+  version: 0.0.3
+  resolution: "assests@https://github.com/WowFinder/asset-schemas.git#commit=6d9fa4bc0f7934bc9e766018a465d4ab4f176a51"
+  dependencies:
+    "@wowfinder/ts-enums": "npm:^0.0.4"
+    ajv: "npm:^8.12.0"
+  checksum: 10c0/fd43f71135c68dd3ee0357c4ef456aa8f71efe04259fa1cf8687fb5c16f7722789e62bf72a794e19aaa4cb782d7f75632980ca97277ee54d49aba4e9141e1154
   languageName: node
   linkType: hard
 
@@ -2128,6 +2164,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json-schema-traverse@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "json-schema-traverse@npm:1.0.0"
+  checksum: 10c0/71e30015d7f3d6dc1c316d6298047c8ef98a06d31ad064919976583eb61e1018a60a0067338f0f79cabc00d84af3fcc489bd48ce8a46ea165d9541ba17fb30c6
+  languageName: node
+  linkType: hard
+
 "json-stable-stringify-without-jsonify@npm:^1.0.1":
   version: 1.0.1
   resolution: "json-stable-stringify-without-jsonify@npm:1.0.1"
@@ -2708,6 +2751,13 @@ __metadata:
     es-errors: "npm:^1.3.0"
     set-function-name: "npm:^2.0.1"
   checksum: 10c0/0f3fc4f580d9c349f8b560b012725eb9c002f36daa0041b3fbf6f4238cb05932191a4d7d5db3b5e2caa336d5150ad0402ed2be81f711f9308fe7e1a9bf9bd552
+  languageName: node
+  linkType: hard
+
+"require-from-string@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "require-from-string@npm:2.0.2"
+  checksum: 10c0/aaa267e0c5b022fc5fd4eef49d8285086b15f2a1c54b28240fdf03599cbd9c26049fee3eab894f2e1f6ca65e513b030a7c264201e3f005601e80c49fb2937ce2
   languageName: node
   linkType: hard
 
@@ -3371,6 +3421,9 @@ __metadata:
     "@types/react": "npm:^18.2.56"
     "@types/react-dom": "npm:^18.2.19"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
+    "@wowfinder/ts-enums": "npm:^0.0.4"
+    "@wowfinder/ts-utils": "npm:^0.0.8"
+    assests: "https://github.com/WowFinder/asset-schemas"
     eslint: "npm:^8.56.0"
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"

@@ -11,8 +11,10 @@ function RenderSpell() {
     
     SpellList(spellsList).then(data => {
       console.log(data);
-      spellsList(data);
+      for (let i = 0; i < data.length; i++) {
+        
 
+      }
     });
   }, [spellsList, setSpellsList]);
   return(
@@ -28,7 +30,7 @@ function RenderSpell() {
         <option value="primal">Primal</option>
       </select>
       <div>
-        {}
+        {spellsLevel}
       </div>
     </>
   )

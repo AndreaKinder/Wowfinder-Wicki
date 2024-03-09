@@ -144,7 +144,7 @@ h1 {
   }
 
 /* Class section*/
-#cSelect, #selectLevel, #spellListSelector{
+#classList, #selectLevel, #spellListSelector{
   font-family: fantasy;
   font-size: 2rem;
   line-height: 1.6;
@@ -157,7 +157,12 @@ h1 {
   text-align: center;
   padding: 0.5em;
 }
-.renderClass{
-  padding: 0 100px;
-  align-items: center;
+.divRender{
+  margin: 20px;
+  border: #333 solid 2px;
+  width: 30em;
+  height: 30em;
+  text-align: center;
+  padding: 0.5em;
+
 }
